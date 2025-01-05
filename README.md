@@ -16,14 +16,22 @@ Description: Calculates the least number of coin required using coin denominatio
 Request Body Example:
 
 json
+
 {
+
   "targetAmount": 103,
+
   "coinDenominations": [1, 2, 50]
+
 }
+
 Response Example:
 
 json
+
 {
+
   [0.01, 0.01, 0.01, 1, 1, 5]
-  }
+  
 }
+
